@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Markazi Text", serif;
+}
+
+.container {
+  height: 100vh;
+  max-height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid rebeccapurple;
+}
+.container .forget {
+  text-decoration: none;
+  color: #caa280;
+  padding: 12px;
+  font-size: 1.2rem;
+}
+
+.login-side {
+  width: 100%;
+  max-width: 700px;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.login-side form {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.login-side form h2 {
+  font-size: 3rem;
+  margin-bottom: 30px;
+}
+.login-side form .login-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.login-side form .input-Email input,
+.login-side form .input-password input {
+  outline: none;
+  border: none;
+  padding: 5px 15px;
+  font-size: 18px;
+  width: 400px;
+}
+.login-side form .Email,
+.login-side form .password {
+  margin-bottom: 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+.login-side form .Email label,
+.login-side form .password label {
+  font-size: 1.2rem;
+  margin-bottom: 12px;
+}
+.login-side form .input-Email,
+.login-side form .input-password {
+  border: 1px solid rgb(82, 82, 82);
+  padding: 10px 12px;
+  border-radius: 12px;
+}
+.login-side form .input-Email i,
+.login-side form .input-password i {
+  color: rgb(52, 52, 52);
+}
+.login-side form #submit {
+  background-color: #caa280;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  width: 444px;
+  max-width: 600px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 12px;
+}
+.login-side form #submit i {
+  padding-right: 10px;
+}
+
+.logo-side {
+  position: relative;
+  width: 50%;
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 0px 0px 0px 50px;
+  background-color: #00ffa2;
+  height: 95%;
+}
+.logo-side img {
+  width: 100%;
+  height: 100%;
+}
+.logo-side .caption {
+  background-color: rgba(23, 24, 25, 0.5);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: right;
+}
+.logo-side .caption .logo {
+  position: relative;
+}
+.logo-side .caption .logo img {
+  position: absolute;
+  width: 95px;
+  height: 85px;
+  top: 40px;
+  right: 40px;
+}
+.logo-side .caption h3 {
+  font-size: 2rem;
+  color: #fcf9f8;
+  position: absolute;
+  top: 160px;
+  right: 40px;
+}
+.logo-side .caption h4 {
+  color: #fcf9f8;
+  font-size: 1.2rem;
+  position: absolute;
+  top: 375px;
+  right: 40px;
+}
+.logo-side .caption .break_line {
+  width: 110px;
+  height: 4px;
+  background-color: #fcf9f8;
+  position: absolute;
+  top: 320px;
+  right: 40px;
+}/*# sourceMappingURL=style.css.map */
