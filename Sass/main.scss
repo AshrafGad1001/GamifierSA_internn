@@ -1,18 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
-
-
-
+@import "variables.scss";
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-
 body {
+    overflow: hidden;
     background-color: #ffffff;
     font-family: "Almarai", sans-serif;
 }
-
 .container {
     display: flex;
     justify-content: space-between;
@@ -20,34 +17,28 @@ body {
     width: 100%;
     height: 100vh;
     max-height: 100vh;
-
     // --------------------
     .left-side {
         width: 40%;
         height: 100vh;
         max-height: 100vh;
         padding: 31px 0px 0px 40px;
-
         h2 {
             text-align: right;
             /* Font Notes */
-            font-family: Almarai;
+            font-family: 'Almarai';
             font-size: 28px;
             font-weight: 700;
             line-height: 31.25px;
             color: #282b3a;
             margin-bottom: 45px;
         }
-
-        ;
-
         form {
             width: 100%;
             text-align: right;
-
             #submit {
-            width: 100%;
-                background-color: #caa280;
+                width: 100%;
+                background-color: $primary-color-light;
                 color: white;
                 display: flex;
                 justify-content: center;
@@ -57,30 +48,22 @@ body {
                 outline: none;
                 border: none;
                 border-radius: 12px;
-
                 i {
                     padding-right: 10px;
-                };
+                }
             }
-
-            ;
-
             .forget {
                 text-decoration: none;
-                font-family: Almarai;
+                font-family: 'Almarai';
                 font-size: 22px;
                 font-weight: 400;
                 line-height: 24.55px;
-                color: #caa280;
+                color: $primary-color-light;
                 display: block;
                 margin-bottom: 20px;
             }
-
-            ;
-
             .input-group {
                 position: relative;
-
                 i {
                     position: absolute;
                     top: 50%;
@@ -89,13 +72,9 @@ body {
                     color: #282b3a;
                 }
             }
-
-            ;
-
             .form-group {
                 width: 100%;
                 margin-bottom: 22px;
-
                 input {
                     width: 100%;
                     outline: none;
@@ -107,9 +86,6 @@ body {
                     font-size: 18px;
                     color: #5a5b65;
                 }
-
-                ;
-
                 label {
                     font-family: 'Almarai';
                     font-size: 20px;
@@ -119,13 +95,8 @@ body {
                     display: block;
                     padding-bottom: 15px;
                 }
-
-                ;
             }
-
-            ;
-        };
-
+        }
         .dropDown {
             display: flex;
             align-items: center;
@@ -135,30 +106,24 @@ body {
             position: relative;
             margin: 2em;
             .select {
-                    background: #fff;
-                    color: #2a2f3b;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    border: 2px #bfbfc0;
-                    border-radius: 0.5em;
-                    padding: 1em;
-                    cursor: pointer;
-                    transition: background 0.3s;
-                }
+                background: #fff;
+                color: #2a2f3b;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                border: 2px #bfbfc0;
+                border-radius: 0.5em;
+                padding: 1em;
+                cursor: pointer;
+                transition: background 0.3s;
+            }
             .selected,
             li {
                 font-weight: 500;
             }
-
-            ;
-
             .selected {
                 padding-left: 22px;
             }
-
-            ;
-
             .arrow {
                 width: 0;
                 height: 0;
@@ -167,15 +132,9 @@ body {
                 border-top: 10px solid #242424;
                 transition: 0.3s;
             }
-
-            ;
-
             .arrow-rotate {
                 transform: rotate(180deg);
             }
-
-            ;
-
             .menu {
                 list-style: none;
                 padding: 0.2em 0.05em;
@@ -191,49 +150,33 @@ body {
                 display: none;
                 transition: 0.2s;
                 z-index: 1;
-
                 li {
                     padding: 0.7em 0.5em;
                     margin: 0.3em 0;
                     border-radius: 0.5em;
                     cursor: pointer;
                 }
-
-                ;
             }
-
-            ;
-
             .active {
                 background: rgb(91, 91, 106);
             }
-
             .menu-open {
                 display: block;
                 opacity: 1;
             }
         }
-
-        ;
     }
-
-    ;
-
     .right-side {
         width: 40%;
         height: 100vh;
         max-height: 100vh;
         position: relative;
-
         .login-bg {
             width: 100%;
             position: absolute;
             height: 92vh;
             border-radius: 0px 0px 0px 50px;
         }
-
-        ;
-
         .over-lay {
             background-color: rgba(23, 24, 25, 0.5);
             position: absolute;
@@ -245,9 +188,6 @@ body {
             border-radius: 0px 0px 0px 50px;
             height: 92vh;
         }
-
-        ;
-
         .img-description {
             height: 92vh;
             display: flex;
@@ -256,16 +196,10 @@ body {
             z-index: 4;
             padding: 40px;
         }
-
-        ;
-
         .logo img {
             width: 95px;
             height: 85px;
         }
-
-        ;
-
         .break-line {
             width: 110px;
             height: 4px;
@@ -273,57 +207,43 @@ body {
             margin-top: 100px;
             margin-bottom: 40px;
         }
-
-        ;
-
         h3 {
             color: #fcf9f8;
-            font-family: Almarai;
+            font-family: 'Almarai';
             font-size: 28px;
             font-weight: 600;
             line-height: 31.25px;
             margin-top: 40px;
         }
-
-        ;
-
         h4 {
             color: #fcf9f8;
-            font-family: Almarai;
+            font-family: 'Almarai';
             font-size: 22px;
             font-weight: 500;
             line-height: 24.55px;
         }
-
-        ;
-
         .logo-2 {
             width: 60px;
             position: absolute;
             bottom: 12px;
             left: 40px;
         }
-
-        ;
-
     }
 }
-
 /* ---------------------------------------- */
 /* Advisor - Accounts */
 /* ---------------------------------------- */
-
 .main {
     display: flex;
     justify-content: space-between;
-
+    overflow: hidden;
     .side {
         .side-content {
             .open-btn {
                 position: absolute;
                 top: -5px;
                 right: 0;
-                background-color: #d3ae8e;
+                background-color: $secondary-color-light;
                 color: rgb(0, 0, 0);
                 font-size: 20px;
                 cursor: pointer;
@@ -331,11 +251,8 @@ body {
                 border-radius: 12px 12px 12px 12px;
                 margin: 25px;
             }
-
-            ;
-
             .side-bar {
-                background-color: #0f111e;
+                background-color: $primary-color-dark;
                 width: 290px;
                 height: 100vh;
                 position: fixed;
@@ -346,28 +263,20 @@ body {
                 overflow-y: auto;
                 transition: 0.6s ease;
                 transition-property: right;
-
                 .bar-header {
                     position: relative;
                     height: 90px;
                     display: flex;
                     align-items: center;
-                    border-bottom: 2px solid #d3ae8e;
-
+                    border-bottom: 2px solid $secondary-color-light;
                     .logo {
                         padding-left: 160px;
                     }
-
-                    ;
-
                     img {
                         width: 55px;
                         height: 48px;
                         margin: 25px;
                     }
-
-                    ;
-
                     .close-btn {
                         position: absolute;
                         top: auto;
@@ -375,25 +284,19 @@ body {
                         width: 16px;
                         height: 34px;
                         border-radius: 0px 8px 8px 0px;
-                        background-color: #d3ae8e;
+                        background-color: $secondary-color-light;
                         cursor: pointer;
                         display: flex;
                         align-items: center;
                         justify-content: center;
                     }
-
-                    ;
                 }
-
-                ;
-
                 .list {
                     margin-right: 30px;
                     width: 50%;
                     display: block;
                     padding: 12px 0px;
-                    border-bottom: 1px solid #d3ae8e;
-
+                    border-bottom: 1px solid $secondary-color-light;
                     h2 {
                         font-family: "Almarai";
                         font-size: 18px;
@@ -402,20 +305,13 @@ body {
                         text-align: right;
                         color: #f1f1f1b2;
                     }
-
-                    ;
                 }
-
-                ;
-
                 .menu-list {
                     width: 100%;
                     margin-top: 30px;
-
                     .side-item {
                         cursor: pointer;
                         position: relative;
-
                         a {
                             color: #eee2d8;
                             font-size: 16px;
@@ -424,86 +320,48 @@ body {
                             padding: 5px 30px;
                             line-height: 30px;
                         }
-
-                        ;
-
                         i {
                             margin-left: 12px;
                         }
-
-                        ;
-
                         .dropdown {
                             position: absolute;
                             top: 14px;
                             left: 0;
                             transition: 0.3s ease;
                         }
-
-                        ;
-
                         .sub-menu {
                             display: none;
                             margin-right: 35px;
-                            border-right: 2px solid #d3ae8e;
+                            border-right: 2px solid $secondary-color-light;
                         }
-
-                        ;
-
                         .view-sub-menu {
                             display: block;
-
                             a {
                                 padding-right: 30px;
                             }
-
-                            ;
                         }
-
-                        ;
                     }
-
-                    ;
-
                 }
-
-                ;
-
-
-            };
-                            .side-bar.hidden {
-                                right: -100%;
-                            }
-
-                            ;
-
-                            .side-bar::-webkit-scrollbar {
-                                width: 0px;
-                            }
-
-            ;
+            }
+            .side-bar.hidden {
+                right: -100%;
+            }
+            .side-bar::-webkit-scrollbar {
+                width: 0px;
+            }
         }
-
-        ;
     }
-
-    ;
-
     .content {
         min-height: 100vh;
-        width: calc(100% - 290px);
+        width: 100%;
         background-color: #efe3d8;
-
         .content-header {
             padding: 20px 40px;
             display: flex;
             justify-content: space-between;
             background-color: #efe3d8;
-            border-bottom: 2px solid #d3ae8e;
+            border-bottom: 2px solid $secondary-color-light;
         }
-
-        ;
-
         .search-header {
             border: 2px solid rgba(152, 102, 102, 0.5);
             border-radius: 13px;
@@ -514,7 +372,6 @@ body {
             display: flex;
             align-items: center;
             justify-content: center;
-
             input {
                 outline: none;
                 padding: 6px 12px;
@@ -522,34 +379,21 @@ body {
                 background-color: transparent;
                 font-size: 20px;
             }
-
-            ;
-
             .search-btn {
                 border: none;
                 padding: 4px;
                 background-color: transparent;
-
                 i {
                     font-size: 18px;
                     padding: 7px;
                     color: rgba(0, 0, 0, 0.7);
                 }
-
-                ;
             }
-
-            ;
-
         }
-
-        ;
-
         .About-header {
             display: flex;
             align-items: center;
             gap: 12px;
-
             .admin-type {
                 background-color: white;
                 border-radius: 24px;
@@ -559,87 +403,64 @@ body {
                 justify-content: center;
                 gap: 12px;
                 padding: 5px 0px;
-
                 .dropdownIcon {
                     padding-top: 12px;
                 }
-
-                ;
-
                 .admin-img {
                     width: 38px;
                     height: 38px;
-
                     img {
                         width: 100%;
                         border-radius: 50%;
                         border: 2px solid #fdfdfd;
                     }
-
-                    ;
                 }
-
-                ;
-
                 .admin-info {
                     text-align: center;
-
                     h2 {
                         font-size: 16px;
                         font-weight: bold;
                     }
-
-                    ;
-
                     p {
                         font-size: 14px;
                     }
                 }
-
-                ;
-
             }
-
-            ;
-
             .notification {
                 width: 40px;
                 height: 40px;
                 border-radius: 50%;
                 background-color: white;
                 padding: 10px;
-
                 i {
                     display: flex;
                     align-items: center;
                     justify-content: center;
                     font-size: 22px;
                 }
-
-                ;
             }
-            ;
         }
-        ;
         .page-title {
             height: 80px;
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 0px 5%;
+            padding: 15px 30px;
             h2 {
-                color: #0f111e;
+                color: $primary-color-dark;
                 font-weight: 700;
             }
-            ;
             .btn-add-account {
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 width: 165px;
                 button {
                     display: flex;
                     align-items: center;
                     justify-content: space-around;
                     width: 100%;
-                    background-color: #d3ae8e;
+                    background-color: $secondary-color-light;
                     color: #fdfdfd;
                     font-weight: 500px;
                     border: none;
@@ -653,19 +474,16 @@ body {
                         width: 30px;
                         height: 30px;
                         border-radius: 50%;
-                        color: #0f111e;
+                        color: $primary-color-dark;
                         background-color: #fdfdfd;
                     }
-                    ;
                 }
-                ;
             }
-            ;
         }
-        ;
         .table-content {
-            display: flex;
-            justify-content: center;
+            overflow-x: auto;
+            padding: 15px 30px;
+            overlay: scroll;
             .styled-table {
                 width: 100%;
                 border-collapse: collapse;
@@ -673,15 +491,13 @@ body {
                 overflow: hidden;
                 thead tr {
                     background-color: #e6d0be;
-                    color: #0f111e;
+                    color: $primary-color-dark;
                     text-align: center;
                     font-weight: bold;
                 }
-                ;
                 th {
                     text-wrap: nowrap;
                 }
-                ;
                 th,
                 td {
                     font-size: 15px;
@@ -689,34 +505,26 @@ body {
                     border: 1px solid #ddd;
                     text-align: center;
                 }
-                ;
                 tbody tr {
                     border-bottom: 1px solid #f6f1ec;
                 }
-                ;
                 tbody tr:nth-of-type(even) {
                     background-color: #f3f3f3;
                 }
-                ;
                 tbody tr:last-of-type {
-                    border-bottom: 2px solid #0f111e;
+                    border-bottom: 2px solid $primary-color-dark;
                 }
-                ;
             }
-            ;
         }
-        ;
     }
-    ;
     .content.Collapse {
         width: calc(100% - 290px);
     }
-    ;
     .content.Expand {
         width: 100%;
     }
-    ;
-};
+}
+;
 /* ------------------ */
 /* Media Query*/
 /* ------------------ */
@@ -724,28 +532,44 @@ body {
     .left-side {
         padding: 20px;
     }
-
     .left-side h2 {
         font-size: 22px;
     }
-
     .container {
         flex-direction: column;
     }
-
     .container .right-side,
     .container .left-side {
         width: 100%;
     }
-
     .right-side .over-lay,
     .right-side .login-bg {
         border-radius: 0px 0px 35px 35px;
     }
+    .main .content .page-title .btn-add-account{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    span {
+        display: none;
+    }
+    button{
+        padding: 0;
+        background-color: transparent;
+        i{
+        width: 50px;
+        height: 50px;
+        background-color: $secondary-color-light;
+        color: white;
+        font-weight: 900;
+        font-size: 28px;
+    }
+    }
+    }  
 }
-
 @media screen and (min-width: 769px) and (max-width: 992px) {
     .right-side {
         width: 50%;
     }
+    // ---------------------
 }
