@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>الحسابات</title>
+    <title>lawyer-account</title>
     <!-- Icon Style  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <!-- Link bootstrap.min  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- link To Pure Css  -->
     <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <!-- link To Sass  -->
     <link rel="stylesheet" href="Sass/main.css">
 </head>
 
@@ -19,15 +20,12 @@
         <div class="side">
             <div class="side-content">
                 <!-- menu button  -->
-
                 <div class="open-btn">
                     <i class="fa-solid fa-bars"></i>
                 </div>
-                <div class="side-bar">
-
+                <div class="side-bar hidden">
                     <!-- Header Section  -->
                     <header class="bar-header">
-
                         <!--Toggle Button-->
                         <div class="close-btn">
                             <i class="fa-solid fa-chevron-right"></i>
@@ -36,7 +34,6 @@
                         <div class="logo">
                             <img src="images/logo.png" alt="--Logo--">
                         </div>
-
                     </header>
                     <!-- list  -->
                     <div class="list">
@@ -155,11 +152,7 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
-
-
         <div class="content">
             <div class="content-header">
                 <div class="search-header">
@@ -168,8 +161,9 @@
                     </button>
                     <input placeholder="بحث" class="search-input" type="text" />
                 </div>
-
-
+                <button class="search-btn-temp">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
                 <div class="About-header">
                     <div class="admin-type">
                         <div class="dropdownIcon">
@@ -183,22 +177,19 @@
                             <img src="Photos/Admin-test.jpg" alt="Admin">
                         </div>
                     </div>
-
                     <div class="notification">
                         <i class="fa-regular fa-bell"></i>
                     </div>
                 </div>
             </div>
-
             <div class="page-title">
                 <div class="posation">
-                    <h2>المستشار</h2>
+                    <h2>المحامي</h2>
                 </div>
                 <div class="btn-add-account">
-                    <button><i class="fa-regular fa-plus"></i>أضافة حساب </button>
+                    <button><i class="fa-regular fa-plus"></i><span>أضافة حساب</span></button>
                 </div>
             </div>
-
             <div class="table-content">
                 <table class="styled-table">
                     <thead>
@@ -217,154 +208,27 @@
                             <td>2020202</td>
                             <td>محمد أبو العلا</td>
                             <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
+                            <td><input class="switch" type="checkbox" checked="true"></td>
                             <td>204060</td>
                             <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
+                            <td class="trach-btn"><button class="bin-button"><i
+                                        class="fa-solid fa-trash-can"></i></button></td>
                         </tr>
                         <tr>
                             <td>2020202</td>
                             <td>محمد أبو العلا</td>
                             <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
+                            <td><input class="switch" type="checkbox" checked="true"></td>
                             <td>204060</td>
                             <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
-                        </tr>
-                        <tr>
-                            <td>2020202</td>
-                            <td>محمد أبو العلا</td>
-                            <td>5</td>
-                            <td><i class="fa-solid fa-toggle-off"></i></td>
-                            <td>204060</td>
-                            <td>ashrafgad542@gmail.com</td>
-                            <td><i class="fa-solid fa-trash-can"></i></td>
+                            <td class="trach-btn"><button class="bin-button"><i
+                                        class="fa-solid fa-trash-can"></i></button></td>
                         </tr>
                     </tbody>
                 </table>
             </div>
         </div>
-
     </div>
-
-
     <script src="js/bootstrap.bundle.min.js"></script>
     <!-- jquery -->
     <script src="js/jquery.min.js"></script>

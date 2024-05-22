@@ -1,0 +1,37 @@
+@import '_variables';
+
+.content{
+    min-height: 100vh;
+    width: calc(100% - 290px);
+    background-color: $background-light;
+    .content-header {
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        background-color: #efe3d8;
+        border-bottom: 2px solid $secondary-color-light;
+        .search-header{
+                border: 2px solid $main-border-color;
+                border-radius: $radius-12;
+                padding: 6px 12px;
+                margin-right: 25px;
+                width: 356px;
+                height: 48px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+        }
+        .About-header{
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+    }
+    .page-title{
+        height: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0px 5%;
+    }
+}
