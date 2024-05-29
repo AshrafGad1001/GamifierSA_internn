@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 @import "variables.scss";
+@import "index.scss";
 * {
     padding: 0;
     margin: 0;
@@ -233,7 +234,7 @@ body {
 /* ---------------------------------------- */
 /* Advisor - Accounts */
 /* ---------------------------------------- */
-.main {
+.main { 
     display: flex;
     justify-content: space-between;
     overflow: hidden;
@@ -663,7 +664,6 @@ body {
         width: 100%;
     }
 }
-;
 /* ------------------ */
 /* Media Query*/
 /* ------------------ */
