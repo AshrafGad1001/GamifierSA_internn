@@ -228,6 +228,60 @@ body {
   font-size: 18px;
 }
 
+.team {
+  padding-bottom: 30px;
+}
+.team .section-header h2 {
+  font-weight: 700;
+  color: #caa280;
+  margin-bottom: 20px;
+}
+.team .section-header p {
+  font-weight: 500;
+  font-size: 25px;
+  color: #0f111e;
+}
+.team .lawyer-card .lawyer-head {
+  padding: 10px;
+  color: white;
+  background-color: #282B3A;
+}
+.team .lawyer-card .lawyer-head h3 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #caa280;
+}
+.team .lawyer-card .lawyer-head p {
+  font-weight: 500;
+}
+.team .lawyer-card .lawyer-head .icon {
+  background-color: #caa280;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  padding: 0 5px 7px 5px;
+  cursor: pointer;
+}
+.team .lawyer-card .lawyer-head i {
+  font-size: 25px;
+}
+.team .lawyer-card .lawyer-info {
+  color: white;
+  background-color: #282B3A;
+  padding: 17px;
+}
+.team .lawyer-card .lawyer-info .lawyer-Descrption {
+  font-size: 17px;
+  font-weight: 500;
+}
+.team .lawyer-card .lawyer-info .lowyer-Socail {
+  margin-top: 12px;
+  padding: 12px 0;
+  color: #CAA280;
+  border-top: 2px solid #CAA280;
+}
+
 @media screen and (max-width: 768px) {
   .sec-navbar {
     display: none;

@@ -290,6 +290,84 @@ body {
 
 }
 
+// -----------Section Four
+.team {
+    padding-bottom: 30px;
+
+    .section-header {
+        h2 {
+            font-weight: 700;
+            color: rgba($color: $primary-color-light, $alpha: 1.2);
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-weight: 500;
+            font-size: 25px;
+            color: $primary-color-dark;
+        }
+    }
+
+    .lawyer-card {
+        .lawyer-head {
+            padding: 10px;
+            color: white;
+            background-color: #282B3A;
+
+            h3 {
+                font-size: 18px;
+                font-weight: 700;
+                color: rgba($color: $primary-color-light, $alpha: 1.0);
+            }
+
+            p {
+                font-weight: 500;
+
+            }
+
+            .icon {
+                background-color: rgba($color: $primary-color-light, $alpha: 1.0);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 4px;
+                padding: 0 5px 7px 5px;
+                cursor: pointer;
+            }
+
+            i {
+                font-size: 25px;
+            }
+        }
+
+        .lawyer-info {
+            color: white;
+            background-color: #282B3A;
+            padding: 17px;
+
+            .lawyer-Descrption {
+                font-size: 17px;
+                font-weight: 500;
+
+            }
+
+            .lowyer-Socail {
+                margin-top: 12px;
+                padding: 12px 0;
+                color: #CAA280;
+                border-top: 2px solid #CAA280;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
     .sec-navbar {
         display: none;
