@@ -15,6 +15,9 @@ body {
   font-family: "Almarai", sans-serif;
 }
 
+.landding-section-one {
+  position: relative;
+}
 .landding-section-one .over-lay {
   background-color: rgba(23, 24, 25, 0.7);
   position: absolute;
@@ -22,6 +25,59 @@ body {
   bottom: 0;
   right: 0;
   left: 0;
+}
+.landding-section-one .landing .landing-info {
+  position: absolute;
+  top: 35%;
+  bottom: 0;
+  right: 15%;
+  left: 0;
+}
+.landding-section-one .landing .landing-info h2 {
+  color: #caa280;
+  font-size: 50px;
+  font-weight: 600;
+}
+.landding-section-one .landing .landing-info p {
+  font-size: 24px;
+  color: #B1B1B2;
+}
+.landding-section-one .landing .landing-info .start-service {
+  font-size: 22px;
+}
+.landding-section-one .landing .landing-info .start-service .fa-scale-balanced {
+  font-size: 32px;
+  margin: 0 25px;
+  color: #D3AE8E;
+}
+.landding-section-one .landing .landing-info .start-service button {
+  color: #B1B1B2;
+  background-color: transparent;
+  width: 197px;
+  height: 50px;
+  border: 2px 0px 0px 0px;
+  opacity: 0px;
+  border: 2px solid #B3753F;
+}
+.landding-section-one .landing .landing-info .start-service button i {
+  margin: 0 15px;
+  color: #B1B1B2;
+}
+.landding-section-one .landing .landing-info .social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+.landding-section-one .landing .landing-info .social-media .rotate-pargraph {
+  transform: rotate(90deg);
+}
+.landding-section-one .landing .landing-info .social-media .icons {
+  font-size: 2 3px;
+  color: #B1B1B2;
 }
 
 .first-navbar {

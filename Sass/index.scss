@@ -16,13 +16,85 @@ body {
     font-family: "Almarai", sans-serif;
 }
 
-.landding-section-one .over-lay {
-    background-color: rgba(23, 24, 25, 0.7);
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
+.landding-section-one {
+    position: relative;
+
+    .over-lay {
+        background-color: rgba(23, 24, 25, 0.7);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .landing {
+        .landing-info {
+            position: absolute;
+            top: 35%;
+            bottom: 0;
+            right: 15%;
+            left: 0;
+
+            h2 {
+                color: $primary-color-light ;
+                font-size: 50px;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: 24px;
+                color: $secondary-color-main-light;
+            }
+
+            .start-service {
+                font-size: 22px;
+
+                .fa-scale-balanced {
+                    font-size: 32px;
+                    margin: 0 25px;
+                    color: #D3AE8E;
+                }
+
+                button {
+                    color: $secondary-color-main-light;
+                    background-color: transparent;
+                    width: 197px;
+                    height: 50px;
+                    border: 2px 0px 0px 0px;
+                    opacity: 0px;
+
+                    border: 2px solid #B3753F;
+
+
+                    i {
+                        margin: 0 15px;
+                        color: $secondary-color-main-light;
+                    }
+                }
+            }
+
+            .social-media {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                align-items: center;
+                position: absolute;
+                top: 0;
+                left: 100px;
+
+                .rotate-pargraph {
+                    transform: rotate(90deg);
+                }
+
+                .icons {
+                    font-size: 2 3px;
+                    color: $secondary-color-main-light;
+                }
+
+            }
+        }
+    }
 }
 
 .first-navbar {
