@@ -192,6 +192,42 @@ body {
   display: none;
 }
 
+.about-two {
+  background-color: #F2F2F3;
+  padding: 30px 40px;
+}
+.about-two .section-header h2 {
+  padding: 12px;
+  font-weight: 600;
+  color: rgba(202, 162, 128, 0.7);
+}
+.about-two .section-header p {
+  font-size: 23px;
+  font-weight: 500;
+  color: #0f111e;
+}
+.about-two .icon-info {
+  padding: 20px 30px;
+  border: 2px solid rgba(202, 162, 128, 0.7);
+  border-radius: 20px;
+}
+.about-two .icon-info i {
+  padding: 24px;
+  font-size: 43px;
+}
+.about-two button {
+  font-weight: 500;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  color: rgba(202, 162, 128, 0.7);
+}
+.about-two button i.fa-arrow-left {
+  font-size: 18px;
+}
+
 @media screen and (max-width: 768px) {
   .sec-navbar {
     display: none;

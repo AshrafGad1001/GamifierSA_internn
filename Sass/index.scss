@@ -17,7 +17,7 @@ body {
 }
 
 
-
+// -----------Section One 
 .landding-section-one {
     position: relative;
     background-color: transparent;
@@ -156,8 +156,6 @@ body {
     }
 }
 
-
-
 // -----------Section Two 
 
 .about {
@@ -242,6 +240,52 @@ body {
     .row.All-about-cards .about-card:nth-child(1)::after {
 
         display: none;
+    }
+
+}
+
+// -----------Section three
+.about-two {
+    background-color: #F2F2F3;
+    padding: 30px 40px;
+
+    .section-header {
+        h2 {
+            padding: 12px;
+            font-weight: 600;
+            color: rgba($color: $primary-color-light, $alpha: 0.7);
+        }
+
+        p {
+            font-size: 23px;
+            font-weight: 500;
+            color: $primary-color-dark;
+        }
+    }
+
+    .icon-info {
+        padding: 20px 30px;
+        border: 2px solid rgba($color: $primary-color-light, $alpha: 0.7);
+        border-radius: 20px;
+
+        i {
+            padding: 24px;
+            font-size: 43px;
+        }
+    }
+
+    button {
+        font-weight: 500;
+        border: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+        color: rgba($color: $primary-color-light, $alpha: 0.7);
+
+        i.fa-arrow-left {
+            font-size: 18px;
+        }
     }
 
 }
