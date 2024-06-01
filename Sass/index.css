@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+/* Border Radius */
+/* ---------------------------------------- */
+/* IndexPage */
+/* ---------------------------------------- */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  overflow: hidden;
+  background-color: #ffffff;
+  font-family: "Almarai", sans-serif;
+}
+
+.landding-section-one .over-lay {
+  background-color: rgba(23, 24, 25, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.first-navbar {
+  margin-bottom: -10px;
+  border-bottom: 1px solid rgb(90, 91, 101);
+  color: #ffffff !important;
+}
+
+.nav-contact-info i {
+  font-size: 22px;
+}
+.nav-contact-info .contact-info {
+  line-height: 4px;
+}
+.nav-contact-info .contact-info h6 {
+  direction: ltr;
+  font-size: 15px;
+}
+.nav-contact-info .contact-info p {
+  font-size: 15px;
+}
+.nav-contact-info .lang {
+  cursor: pointer;
+}
+.nav-contact-info .fa-bars-staggered {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.sec-navbar {
+  background-color: transparent !important;
+  margin-top: 81px;
+  margin-right: 100px;
+  position: fixed;
+}
+.sec-navbar li a {
+  color: #ffffff !important;
+}
+.sec-navbar .nav-link {
+  font-weight: 500;
+  padding-top: 12px;
+}
+.sec-navbar .active {
+  border-top: 4px solid #caa280;
+  color: #caa280 !important;
+}
+
+@media screen and (max-width: 768px) {
+  .sec-navbar {
+    display: none;
+  }
+  .nav-contact-info .lang {
+    display: none;
+  }
+}/*# sourceMappingURL=index.css.map */

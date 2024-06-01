@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="rtl">
+<html lang="ar" dir="rtl">
 
 <head>
     <meta charset="UTF-8">
@@ -10,52 +10,74 @@
     <!-- Link bootstrap.min  -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- link To Sass  -->
-    <link rel="stylesheet" href="Sass/main.css">
+    <link rel="stylesheet" href="Sass/index.css">
 </head>
 
 <body>
-    <div class="indexContainer">
-        <div class="sectionOne">
-            <div class="main">
-                <div class="overlay">
-                    <div class="mainContent">
-
-
-
-
+    <section class="landding-section-one">
+        <div class="over-lay"></div>
+        <!-- Nav One -->
+        <nav class="navbar first-navbar navbar-expand-lg navbar-light text-white fixed-top">
+            <div class="container d-flex justify-content-between align-items-center ">
+                <div class="col-lg-4 navbar-brand  mt-2 me-5">
+                    <img src="logo.png" alt="logo" width="60px" height="60px" class="img-fluid">
+                </div>
+                <div class="nav-contact-info d-flex justify-content-between align-items-center gap-2">
+                    <div class="lang">
+                        <span>عربي</span>
+                        <span class="mx-1">|</span>
+                        <span>EN</span>
                     </div>
+                    <span class="mx-2">|</span>
+                    <div class="nav-contact  d-flex justify-content-between align-items-center gap-3">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        <div class="contact-info  d-flex flex-column align-items-center">
+                            <h6>+966 353523255</h6>
+                            <p>info@waqaa.com</p>
+                        </div>
+                    </div>
+                    <span class="mx-2">|</span>
+                    <i class="fa-solid fa-bars-staggered"></i>
                 </div>
             </div>
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="sectionTwo">
-            <div class="main">
-                <div class="overlay">
-                    <div class="mainContent">
-
-
-
-
-                    </div>
-                </div>
+        </nav>
+        <!-- Nav Two -->
+        <nav class="navbar sec-navbar navbar-expand-lg navbar-light fixed">
+            <div class="container">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item ">
+                        <a class="nav-link active" href="#">الرئيسية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">تواصل معنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">خدمات</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div>
+            <img src="assets/images/index1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
             </div>
         </div>
-        <div class="sectionThree"></div>
-        <div class="sectionFour"></div>
-        <div class="sectionFive"></div>
-        <div class="sectionSix"></div>
-    </div>
+    </section>
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/landding.js"></script>
 </body>
 
 </html>
