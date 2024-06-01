@@ -11,14 +11,16 @@
 }
 
 body {
-    overflow: hidden;
+    overflow-y: auto;
     background-color: #ffffff;
     font-family: "Almarai", sans-serif;
 }
 
+
+
 .landding-section-one {
     position: relative;
-    min-height: 100vh;
+    background-color: transparent;
 
     .over-lay {
         background-color: rgba(23, 24, 25, 0.7);
@@ -96,69 +98,69 @@ body {
             }
         }
     }
-}
 
-.first-navbar {
-    margin-bottom: -10px;
-    border-bottom: 1px solid $third-color-gray ;
-    color: #ffffff !important;
-}
-
-.nav-contact-info {
-    i {
-        font-size: 22px;
+    .first-navbar {
+        border-bottom: 1px solid $third-color-gray ;
+        color: #ffffff !important;
     }
 
-    .contact-info {
-        line-height: 4px;
-
-        h6 {
-            direction: ltr;
-            font-size: 15px;
+    .nav-contact-info {
+        i {
+            font-size: 22px;
         }
 
-        p {
-            font-size: 15px;
+        .contact-info {
+            line-height: 4px;
+
+            h6 {
+                direction: ltr;
+                font-size: 15px;
+            }
+
+            p {
+                font-size: 15px;
+            }
         }
-    }
 
-    .lang {
-        cursor: pointer;
-    }
+        .lang {
+            cursor: pointer;
+        }
 
-    .fa-bars-staggered {
-        font-size: 30px;
-        cursor: pointer;
-    }
-}
-
-.sec-navbar {
-    background-color: transparent !important;
-    margin-top: 81px;
-    margin-right: 100px;
-    position: fixed;
-
-    li {
-        a {
-            color: #ffffff !important;
+        .fa-bars-staggered {
+            font-size: 30px;
+            cursor: pointer;
         }
     }
 
-    .nav-link {
-        font-weight: 500;
-        padding-top: 12px;
-    }
+    .sec-navbar {
+        background-color: transparent !important;
+        margin-top: 81px;
+        margin-right: 100px;
+        position: fixed;
 
-    .active {
-        border-top: 4px solid $primary-color-light;
-        color: $primary-color-light !important;
+        li {
+            a {
+                color: #ffffff !important;
+            }
+        }
+
+        .nav-link {
+            font-weight: 500;
+            padding-top: 12px;
+        }
+
+        .active {
+            border-top: 4px solid $primary-color-light;
+            color: $primary-color-light !important;
+        }
     }
 }
+
+
 
 // -----------Section Two 
 
 .about {
-    
     padding: 20px 0;
     color: $secondary-color-main-light ;
     background-color: $background-dark-helper;

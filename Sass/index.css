@@ -10,14 +10,14 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-y: auto;
   background-color: #ffffff;
   font-family: "Almarai", sans-serif;
 }
 
 .landding-section-one {
   position: relative;
-  min-height: 100vh;
+  background-color: transparent;
 }
 .landding-section-one .over-lay {
   background-color: rgba(23, 24, 25, 0.7);
@@ -80,48 +80,44 @@ body {
   font-size: 2 3px;
   color: #B1B1B2;
 }
-
-.first-navbar {
-  margin-bottom: -10px;
+.landding-section-one .first-navbar {
   border-bottom: 1px solid rgb(90, 91, 101);
   color: #ffffff !important;
 }
-
-.nav-contact-info i {
+.landding-section-one .nav-contact-info i {
   font-size: 22px;
 }
-.nav-contact-info .contact-info {
+.landding-section-one .nav-contact-info .contact-info {
   line-height: 4px;
 }
-.nav-contact-info .contact-info h6 {
+.landding-section-one .nav-contact-info .contact-info h6 {
   direction: ltr;
   font-size: 15px;
 }
-.nav-contact-info .contact-info p {
+.landding-section-one .nav-contact-info .contact-info p {
   font-size: 15px;
 }
-.nav-contact-info .lang {
+.landding-section-one .nav-contact-info .lang {
   cursor: pointer;
 }
-.nav-contact-info .fa-bars-staggered {
+.landding-section-one .nav-contact-info .fa-bars-staggered {
   font-size: 30px;
   cursor: pointer;
 }
-
-.sec-navbar {
+.landding-section-one .sec-navbar {
   background-color: transparent !important;
   margin-top: 81px;
   margin-right: 100px;
   position: fixed;
 }
-.sec-navbar li a {
+.landding-section-one .sec-navbar li a {
   color: #ffffff !important;
 }
-.sec-navbar .nav-link {
+.landding-section-one .sec-navbar .nav-link {
   font-weight: 500;
   padding-top: 12px;
 }
-.sec-navbar .active {
+.landding-section-one .sec-navbar .active {
   border-top: 4px solid #caa280;
   color: #caa280 !important;
 }
