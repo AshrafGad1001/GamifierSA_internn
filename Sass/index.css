@@ -336,6 +336,102 @@ body {
   color: white;
 }
 
+.footer-section {
+  background-color: rgb(40, 43, 58);
+  padding: 20px;
+}
+.footer-section .footer-info h3 {
+  color: white;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: 800;
+}
+.footer-section .footer-info p {
+  color: rgba(255, 255, 255, 0.4705882353);
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.footer-section .footer-icons {
+  padding: 0 20px;
+}
+.footer-section .footer-icons h3 {
+  color: white;
+  padding: 12px 0;
+  font-size: 26px;
+  font-weight: 800;
+}
+.footer-section .footer-icons .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  font-size: 22px;
+}
+.footer-section .footer-icons .icons i {
+  cursor: pointer;
+  color: #CAA280;
+}
+.footer-section .footer-contact h3 {
+  color: white;
+  padding: 12px 0;
+  font-size: 26px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+.footer-section .footer-contact p {
+  color: white;
+  direction: ltr;
+  font-weight: 500;
+  font-size: 16px;
+}
+.footer-section .footer-contact-Email {
+  direction: ltr;
+}
+.footer-section .footer-contact-Email .head {
+  padding: 12px;
+  color: white;
+  font-weight: 500;
+  font-size: 20px;
+  direction: ltr;
+}
+.footer-section .footer-contact-Email .input-Email {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.footer-section .footer-contact-Email .input-Email button {
+  cursor: pointer;
+  padding: 12px 20px;
+  border: 3px solid #CAA280;
+  margin-left: 20px;
+  border-radius: 5px;
+}
+.footer-section .footer-contact-Email .input-Email .form-floating {
+  width: 80%;
+}
+.footer-section .footer-contact-Email .input-Email .form-floating label span {
+  font-size: 17px;
+  font-weight: 500;
+}
+.footer-section .footer-contact-Email .input-Email .form-floating label i {
+  color: #CAA280;
+  font-size: 22px;
+}
+.footer-section .footer-contact-Email .link-contact {
+  color: #F2F2F3;
+  font-weight: 700;
+  font-size: 20px;
+  letter-spacing: 1.2px;
+}
+.footer-section .Copyright {
+  border-top: 3px solid #CAA280;
+  direction: ltr;
+  padding: 10px 0;
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
 @media screen and (max-width: 768px) {
   .sec-navbar {
     display: none;

@@ -16,7 +16,6 @@ body {
     font-family: "Almarai", sans-serif;
 }
 
-
 // -----------Section One 
 .landding-section-one {
     position: relative;
@@ -425,6 +424,141 @@ body {
     }
 
 }
+
+.footer-section {
+    background-color: $third-color-darkGray;
+    padding: 20px;
+
+    .footer-info {
+
+        h3 {
+            color: white;
+            padding: 12px 0;
+            font-size: 16px;
+            font-weight: 800;
+        }
+
+        p {
+            color: #FFFFFF78;
+            font-size: 20px;
+            font-weight: 500;
+            letter-spacing: 1px;
+        }
+    }
+
+    .footer-icons {
+        padding: 0 20px;
+
+        h3 {
+            color: white;
+            padding: 12px 0;
+            font-size: 26px;
+            font-weight: 800;
+        }
+
+        .icons {
+            display: flex;
+            justify-content: space-between;
+            align-items: self-start;
+            font-size: 22px;
+
+            i {
+                cursor: pointer;
+                color: #CAA280;
+            }
+        }
+    }
+
+    .footer-contact {
+        h3 {
+            color: white;
+            padding: 12px 0;
+            font-size: 26px;
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: white;
+            direction: ltr;
+            font-weight: 500;
+            font-size: 16px;
+        }
+    }
+
+    .footer-contact-Email {
+        direction: ltr;
+
+        .head {
+            padding: 12px;
+            color: white;
+            font-weight: 500;
+            font-size: 20px;
+            direction: ltr;
+        }
+
+        .input-Email {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+
+            button {
+                cursor: pointer;
+                padding: 12px 20px;
+                border: 3px solid #CAA280;
+                margin-left: 20px;
+                border-radius: 5px;
+            }
+
+            .form-floating {
+                width: 80%;
+
+                label {
+                    span {
+                        font-size: 17px;
+                        font-weight: 500;
+                    }
+
+                    i {
+                        color: #CAA280;
+                        font-size: 22px;
+                    }
+                }
+            }
+
+
+        }
+
+        .link-contact {
+            color: #F2F2F3;
+            font-weight: 700;
+            font-size: 20px;
+            letter-spacing: 1.2px;
+        }
+
+    }
+
+    .Copyright {
+        border-top: 3px solid #CAA280;
+        direction: ltr;
+        padding: 10px 0;
+        font-size: 20px;
+        font-weight: 500;
+        color: white;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
