@@ -293,6 +293,7 @@ body {
 // -----------Section Four
 .team {
     padding-bottom: 30px;
+    margin-bottom: 50px;
 
     .section-header {
         h2 {
@@ -361,7 +362,69 @@ body {
     }
 }
 
+// -----------Section Five
+.contact-section {
+    position: relative;
+    height: 60vh;
+    background-image: url(../assets/images/index2.jpg);
+    background-position: center;
 
+
+    .over-lay {
+        background-color: rgba(23, 24, 25, 0.7);
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    .contact-form {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        background-color: #282B3AB2;
+        border-radius: 23px;
+
+
+        input,
+        textarea {
+            background-color: #505364b2;
+        }
+
+        button {
+            background-color: transparent;
+            font-weight: 600;
+            font-size: 18px;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 4px;
+            border: 2px solid rgba($color: $primary-color-light, $alpha: 1.0);
+        }
+    }
+
+    .Contact-info {
+        display: flex;
+        align-items: left;
+        justify-content: flex-start;
+        flex-direction: column;
+        padding: 100px 100px 0 0;
+
+        .Plateform-name {
+            color: #D3AE8E;
+            font-weight: 900;
+            font-size: 35px;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 23px;
+            color: white;
+        }
+    }
+
+}
 
 
 

@@ -230,6 +230,7 @@ body {
 
 .team {
   padding-bottom: 30px;
+  margin-bottom: 50px;
 }
 .team .section-header h2 {
   font-weight: 700;
@@ -280,6 +281,59 @@ body {
   padding: 12px 0;
   color: #CAA280;
   border-top: 2px solid #CAA280;
+}
+
+.contact-section {
+  position: relative;
+  height: 60vh;
+  background-image: url(../assets/images/index2.jpg);
+  background-position: center;
+}
+.contact-section .over-lay {
+  background-color: rgba(23, 24, 25, 0.7);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.contact-section .contact-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: rgba(40, 43, 58, 0.6980392157);
+  border-radius: 23px;
+}
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+  background-color: rgba(80, 83, 100, 0.6980392157);
+}
+.contact-section .contact-form button {
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 18px;
+  color: white;
+  padding: 8px 15px;
+  border-radius: 4px;
+  border: 2px solid #caa280;
+}
+.contact-section .Contact-info {
+  display: flex;
+  align-items: left;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 100px 100px 0 0;
+}
+.contact-section .Contact-info .Plateform-name {
+  color: #D3AE8E;
+  font-weight: 900;
+  font-size: 35px;
+}
+.contact-section .Contact-info p {
+  font-weight: 600;
+  font-size: 23px;
+  color: white;
 }
 
 @media screen and (max-width: 768px) {
