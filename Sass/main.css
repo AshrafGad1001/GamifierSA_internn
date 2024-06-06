@@ -1,5 +1,213 @@
 @import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
 /* Border Radius */
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+/* Reset All Element  */
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: "Almarai", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  height: auto;
+}
+
+input,
+button {
+  background: none;
+  border: none;
+  font: inherit;
+}
+
+button {
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+/* Border Radius */
+.form-section {
+  overflow-y: auto;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(../assets/images/image.jpeg);
+}
+.form-section .over-lay {
+  background-color: rgba(2, 13, 24, 0.9);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+.form-section .main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.form-section .main .section-header {
+  width: 70%;
+  border-bottom: 4px solid #d3ae8e;
+}
+.form-section .main .section-header h3 {
+  color: #d3ae8e;
+  font-weight: 800;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+.form-section .main .section-header p {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+.form-section .main .main-forms {
+  padding-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+}
+.form-section .main .main-forms .form-header {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+.form-section .main .main-forms .form-header .title {
+  height: 60px;
+  width: 100%;
+  color: #333;
+  background-color: #caa280;
+  border-radius: 10px 10px 0 0;
+  text-align: center;
+  padding: 12px;
+  font-size: 22px;
+  font-weight: 600px;
+  letter-spacing: 1.2px;
+}
+.form-section .main .main-forms .form-header .page-num {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #FFFFFF;
+  padding: 20px 0 0 20px;
+  font-size: 17px;
+  font-weight: 500;
+}
+.form-section .main .main-forms .form-header .page-num span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #caa280;
+  padding: 4px 7px;
+  margin: 0 3px;
+}
+.form-section .main .main-forms .form {
+  border-radius: 0 0 8px 8px;
+  padding: 30px 40px;
+  width: 70%;
+  min-height: 700px;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.6);
+  margin-bottom: 30px;
+}
+.form-section .main .main-forms label {
+  font-size: 20px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-top: 12PX;
+}
+.form-section .main .main-forms input {
+  max-height: 50px;
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #333;
+  border-radius: 6px !important;
+  outline: none;
+  color: #333;
+  font-size: 17px;
+}
+.form-section .main .main-forms .form-1 .input-group {
+  position: relative;
+}
+.form-section .main .main-forms .form-1 .input-group i {
+  font-size: 20px;
+  position: absolute;
+  left: 10px;
+  bottom: 15px;
+}
+.form-section .main .main-forms .form-1 .input-group .saudi-arabia {
+  position: absolute;
+  left: 30px;
+  bottom: 5px;
+}
+.form-section .main .main-forms .form-1 .input-group .saudi-arabia span {
+  font-size: 18px;
+  direction: ltr;
+}
+.form-section .main .main-forms .form-1 .status {
+  display: flex;
+  flex-direction: column;
+}
+.form-section .main .main-forms .form-1 .status #select {
+  width: 100%;
+  padding: 15px 30px;
+  margin: 20px 0;
+  font-size: 17px;
+  font-weight: 500;
+  border-radius: 6px;
+}
+.form-section .main .main-forms .form-1 .status #select option {
+  color: #333;
+  font-size: 18px;
+  font-weight: 500;
+}
+.form-section .main .main-forms .form-1 button {
+  color: #FFFFFF;
+  background-color: rgba(15, 17, 30, 0.9490196078);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  border-radius: 6px;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -7,7 +215,7 @@
 }
 
 body {
-  overflow: hidden;
+  overflow-y: auto;
   background-color: #ffffff;
   font-family: "Almarai", sans-serif;
 }

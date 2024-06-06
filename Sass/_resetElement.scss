@@ -8,24 +8,22 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   background-color: #ffffff;
   font-family: "Almarai", sans-serif;
 }
+
 li {
   list-style: none;
 }
-a,
-img,
-span,
-input,
-button {
-  display: block;
-}
+
+
 a {
   text-decoration: none;
   color: inherit;
 }
+
 img {
   height: auto;
 }
@@ -37,10 +35,19 @@ button {
   font: inherit;
 }
 
-input {
-  width: 100%;
-}
 button {
   color: inherit;
   cursor: pointer;
+}
+
+/* Chrome, Safari, Edge */
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
 }
