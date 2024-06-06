@@ -332,6 +332,108 @@ body.form-section-body {
   color: #0F111E;
   background-color: #FFFFFF;
 }
+.form-section .main .main-forms .form-3 .Attached-files {
+  width: 100%;
+  height: -moz-fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+}
+.form-section .main .main-forms .form-3 .Attached-files input {
+  display: none;
+}
+.form-section .main .main-forms .form-3 .Attached-files .file-upload-design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.form-section .main .main-forms .form-3 .Attached-files .browse-button {
+  background-color: #caa280;
+  padding: 5px 15px;
+  border-radius: 10px;
+  color: white;
+  transition: all 0.3s;
+}
+.form-section .main .main-forms .form-3 .Attached-files .browse-button:hover {
+  background-color: rgb(14, 14, 14);
+}
+.form-section .main .main-forms .form-3 .Attached-files .file-upload-label {
+  width: 100%;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 30px 70px;
+  border-radius: 40px;
+  border: 1px dashed rgb(82, 82, 82);
+}
+.form-section .main .main-forms .form-3 .Attached-files .file-upload-label svg {
+  height: 50px;
+  fill: #caa280;
+  margin-bottom: 20px;
+}
+.form-section .main .main-forms .form-3 .Negotiation {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 12px;
+}
+.form-section .main .main-forms .form-3 .Negotiation label {
+  margin-right: 20px;
+}
+.form-section .main .main-forms .form-3 .Negotiation input {
+  width: 5px;
+  height: 5px;
+  background-color: #caa280;
+}
+.form-section .main .main-forms .form-3 .Review {
+  width: 100%;
+  direction: ltr;
+  padding-bottom: 30px;
+  border-bottom: 12px solid #caa280;
+  border-radius: 0 0 8px 8px;
+}
+.form-section .main .main-forms .form-3 .Review button {
+  color: #333;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 120px;
+  padding: 8px 12px;
+  border: 1.2px solid #333;
+}
+.form-section .main .main-forms .form-3 .Review button i {
+  color: #caa280;
+}
+.form-section .main .main-forms .form-3 .Approval {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-section .main .main-forms .form-3 .Approval label {
+  margin-right: 20px;
+}
+.form-section .main .main-forms .form-3 .Approval input {
+  width: 5px;
+  height: 5px;
+  background-color: #caa280;
+}
+.form-section .main .main-forms .form-3 button {
+  margin-top: 20px;
+  color: #FFFFFF;
+  background-color: rgba(15, 17, 30, 0.9490196078);
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  font-weight: 600;
+  font-size: 24px;
+  letter-spacing: 1.2px;
+  border-radius: 6px;
+}
 
 * {
   padding: 0;

@@ -330,6 +330,130 @@ body.form-section-body {
 
             }
 
+            .form-3 {
+                .Attached-files {
+                    width: 100%;
+                    height: fit-content;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: center;
+                    flex-direction: column;
+
+
+                    input {
+                        display: none;
+                    }
+
+                    .file-upload-design {
+
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        gap: 5px;
+                    }
+
+                    .browse-button {
+                        background-color: $primary-color-light;
+                        padding: 5px 15px;
+                        border-radius: 10px;
+                        color: white;
+                        transition: all 0.3s;
+                    }
+
+                    .browse-button:hover {
+                        background-color: rgb(14, 14, 14);
+                    }
+
+                    .file-upload-label {
+                        width: 100%;
+                        cursor: pointer;
+                        background-color: #fff;
+                        padding: 30px 70px;
+                        border-radius: 40px;
+                        border: 1px dashed rgb(82, 82, 82);
+
+
+                        svg {
+                            height: 50px;
+                            fill: $primary-color-light;
+                            margin-bottom: 20px;
+                        }
+                    }
+                }
+
+                .Negotiation {
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    gap: 12px;
+
+                    label {
+                        margin-right: 20px;
+                    }
+
+                    input {
+                        width: 5px;
+                        height: 5px;
+                        background-color: $primary-color-light;
+                    }
+                }
+
+                .Review {
+                    width: 100%;
+                    direction: ltr;
+                    padding-bottom: 30px;
+                    border-bottom: 12px solid $primary-color-light ;
+                    border-radius: 0 0 8px 8px;
+
+                    button {
+
+                        color: #333;
+                        background-color: #FFFFFF;
+                        border-radius: 8px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        width: 120px;
+                        padding: 8px 12px;
+                        border: 1.2px solid #333;
+
+                        i {
+                            color: $primary-color-light;
+                        }
+                    }
+                }
+
+                .Approval {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    label {
+                        margin-right: 20px;
+                    }
+
+                    input {
+                        width: 5px;
+                        height: 5px;
+                        background-color: $primary-color-light;
+                    }
+                }
+
+                button {
+                    margin-top: 20px;
+                    color: #FFFFFF;
+                    background-color: #0F111EF2;
+                    width: 100%;
+                    text-align: center;
+                    padding: 12px;
+                    font-weight: 600;
+                    font-size: 24px;
+                    letter-spacing: 1.2px;
+                    border-radius: 6px;
+                }
+            }
+
         }
     }
 }
