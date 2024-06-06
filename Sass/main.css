@@ -396,6 +396,8 @@ body.form-section-body {
   border-radius: 0 0 8px 8px;
 }
 .form-section .main .main-forms .form-3 .Review button {
+  font-size: 22px;
+  font-weight: 500;
   color: #333;
   background-color: #FFFFFF;
   border-radius: 8px;
