@@ -96,7 +96,7 @@ body.form-section-body {
 
             ///Global Styling Form
             .form {
-                border-radius: 8px;
+                border-radius: 0 0 8px 8px;
                 padding: 30px 40px;
                 width: 70%;
                 min-height: 700px;
@@ -128,7 +128,7 @@ body.form-section-body {
             ///End of Global Styling
 
             .form-1 {
-                border-radius: 0 0 8px 8px;
+                // border-radius: 0 0 8px 8px;
 
                 .input-group {
                     position: relative;
@@ -186,6 +186,8 @@ body.form-section-body {
             }
 
             .form-2 {
+                // border-radius: 0 0 8px 8px;
+
                 #floatingTextarea2 {
                     height: 100px;
                 }
@@ -331,6 +333,8 @@ body.form-section-body {
             }
 
             .form-3 {
+                // border-radius: 0 0 8px 8px;
+
                 .Attached-files {
                     width: 100%;
                     height: fit-content;
@@ -457,5 +461,15 @@ body.form-section-body {
             }
 
         }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .form-header {
+        width: 90% !important;
+    }
+
+    .form {
+        width: 90% !important;
     }
 }
